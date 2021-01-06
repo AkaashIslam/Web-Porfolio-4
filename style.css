@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+h1{
+    font-size: 60px;
+    
+    text-transform: uppercase; 
+    
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: grey;
+}
+.name-highlight{
+    color: tomato;
+    
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 50%;
+    background-position: center;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    
+
+}
+.nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.nav a{
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.PROJECT-AREA img{
+    width: 50%;
+    background-position: center;
+
+}
+.PROJECT-AREA .half-width{
+    float: center;
+    display: table;
+    padding: 5px;
+}
+.PROJECT-AREA div img{
+    box-sizing: border-box;
+    display: table;
+    padding: 2rem;
+    background-color: rgb(184, 172, 172);
+    margin: 2rem;
+    box-shadow: -2px -2px; 4px rgba(0,0,0,0.5)
+}
+
+.single-exprience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px red;
+    border-image: linear-gradient(180deg,lightsalmon tomato);
+    border-image-slice: 1;
+}
+.bg image div{
+    width: 50%;
+    background-repeat:no-repeat ;
+    background-position: right;
+
+}
+.PROJECT-AREA{
+    text-align: center;
+   
+    
+    
+}
+
+
